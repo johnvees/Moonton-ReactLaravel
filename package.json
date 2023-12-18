@@ -21,6 +21,6 @@
     },
     "dependencies": {
         "@prettier/plugin-php": "^0.21.0",
-        "global": "^4.4.0"
+        "prop-types": "^15.8.1"
     }
 }
