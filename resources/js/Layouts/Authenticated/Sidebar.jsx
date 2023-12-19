@@ -12,7 +12,10 @@ export default function Sidebar() {
                     {/* START: Menu */}
                     <div>
                         <div className="text-gray-1 text-sm mb-4">Menu</div>
-                        <a href="/" className="side-link active">
+                        <Link
+                            href={route("prototype.dashboard")}
+                            className="side-link active"
+                        >
                             <svg
                                 width="24"
                                 height="24"
@@ -30,7 +33,7 @@ export default function Sidebar() {
                                 </g>
                             </svg>
                             Discover
-                        </a>
+                        </Link>
                         <a href="#!" className="side-link">
                             <svg
                                 width="24"
@@ -85,7 +88,10 @@ export default function Sidebar() {
                     {/* START: Others */}
                     <div>
                         <div className="text-gray-1 side-link mb-4">Others</div>
-                        <Link href={route('prototype.subscription-plan')} className="side-link">
+                        <Link
+                            href={route("prototype.subscription-plan")}
+                            className="side-link"
+                        >
                             <svg
                                 width="24"
                                 height="24"
@@ -156,10 +162,7 @@ export default function Sidebar() {
                     {/* START: Subscription details */}
                     <div className="mt-auto pr-[30px]">
                         <div className="p-5 bg-black rounded-[25px]">
-                            <img
-                                src="/icons/ic_star-rounded.svg"
-                                alt=""
-                            />
+                            <img src="/icons/ic_star-rounded.svg" alt="" />
                             <div className="text-white text-lg font-semibold mt-4 mb-8">
                                 For Greatest
                             </div>
