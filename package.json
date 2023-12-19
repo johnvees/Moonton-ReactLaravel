@@ -21,6 +21,10 @@
     },
     "dependencies": {
         "@prettier/plugin-php": "^0.21.0",
-        "global": "^4.4.0"
+        "flickity": "^3.0.0",
+        "numeral": "^2.0.6",
+        "prop-types": "^15.8.1",
+        "react-flickity-component": "^4.0.7",
+        "react-player": "^2.14.0"
     }
 }
