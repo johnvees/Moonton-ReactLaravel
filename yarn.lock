@@ -2088,6 +2088,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"numeral@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "numeral@npm:2.0.6"
+  checksum: 5ed008d3fae05cfa4986b77a85ca10bff29ae6e1fa41a04cce05ea21f08a8a104226f88868930e2a94e3239708d6985d111b5d1291e8b9a3049ffc5365c332d4
+  languageName: node
+  linkType: hard
+
 "object-assign@npm:^4.0.1, object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
@@ -2466,6 +2473,7 @@ __metadata:
     axios: "npm:^1.6.1"
     flickity: "npm:^3.0.0"
     laravel-vite-plugin: "npm:^0.8.0"
+    numeral: "npm:^2.0.6"
     postcss: "npm:^8.4.18"
     prop-types: "npm:^15.8.1"
     react: "npm:^18.2.0"
