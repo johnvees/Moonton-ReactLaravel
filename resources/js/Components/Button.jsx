@@ -11,7 +11,7 @@ Button.propTypes = {
         "light-outline",
         "white-outline",
     ]),
-    processing: PropTypes.bool,
+    disabled: PropTypes.bool,
     children: PropTypes.node,
 };
 
@@ -19,16 +19,16 @@ export default function Button({
     type = "submit",
     className = "",
     variant = "primary",
-    processing,
+    disabled,
     children,
 }) {
     return (
         <button
             type={type}
             className={`rounded-2xl py-[13px] text-center w-full ${
-                processing && "opacity-30"
+                disabled && "opacity-30"
             } btn-${variant} ${className}`}
-            disabled={processing}
+            disabled={disabled}
         >
             {children}
         </button>
